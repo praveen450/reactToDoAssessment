@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # todoapp
 ToDO app is created based on the requirement from https://github.com/jwo/react-assessment </br>
 </br>
@@ -18,3 +19,6 @@ in from web service https://practiceapi.devmountain.com/api/ . Open the code ins
 <img width="940" alt="4" src="https://user-images.githubusercontent.com/42551395/44413939-cf012100-a529-11e8-9510-f8f444f680e0.png"> 
 </br> <b> Screen 2 </b> </br>
 <img width="659" alt="5" src="https://user-images.githubusercontent.com/42551395/44413942-d0324e00-a529-11e8-8b9f-5ef8294ad15d.png">
+=======
+
+>>>>>>> 5d5cbfe681aa6bf26dc124b85ce96305d7b124a4
