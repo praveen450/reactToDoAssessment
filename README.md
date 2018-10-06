@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # todoapp
 ToDO app is created based on the requirement from https://github.com/jwo/react-assessment </br>
 </br>
