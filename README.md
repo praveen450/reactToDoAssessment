@@ -8,6 +8,4 @@ This is the React Application with web services https://practiceapi.devmountain.
 3.  And do "npm start" to open this To-Do Application.
 </br>
 </br> <b> Screen 1 </b> </br>
-
-
->>>>>>> 5d5cbfe681aa6bf26dc124b85ce96305d7b124a4
+(https://user-images.githubusercontent.com/43896941/46565760-eda05900-c8d8-11e8-8a6e-9e160e20c491.PNG)
