@@ -11,6 +11,9 @@ import IconButton from '@material-ui/core/IconButton';
 import Tooltip from '@material-ui/core/Tooltip';
 import DoneRoundedIcon from '@material-ui/icons/DoneOutlineTwoTone';
 import If from './common/If';
+import Grid from '@material-ui/core/Grid';
+import Paper from '@material-ui/core/Paper';
+import Header from './common/Header';
 
 class ViewToDoTaskPage extends Component {
     constructor(props, context) {
