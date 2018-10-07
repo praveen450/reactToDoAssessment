@@ -90,57 +90,63 @@ class ViewToDoTaskPage extends Component {
 
     render() {
         return (
-            <div align="center">
-                <Link to={"/"}> {'<'} Back to ToDo Task</Link>
-                <div className="row">
-                    <div className="col-lg-12 col-md-12 col-sm-12">
-                        <TextField
-                            required
-                            id="title"
-                            label="To Do Task"
-                            value={this.state.title}
-                            onChange={this.handleTitleChange('title')}
-                            margin="normal"
-                            error={this.state.checkErrorname === "0"}
-                            helperText={this.state.checkErrorname === "0" ? 'Title should not be empty!' : ' '}
-                        />
-                        <If test={!this.state.completed}>
-                            <Tooltip title="Complete">
-                                <IconButton aria-label="Complete" onClick={this.CompleteToDoTask}>
-                                    <DoneRoundedIcon style={{ color: 'green' }} />
-                                </IconButton>
-                            </Tooltip>
-                        </If>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-lg-12 col-md-12 col-sm-12">
-                        <TextField
-                            id="description"
-                            label="Description"
-                            multiline
-                            rows="3"
-                            defaultValue=""
-                            margin="normal"
-                            value={this.state.description}
-                            onChange={this.handleDescriptionChange('description')}
-                        />
-                        
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-lg-12 col-md-12 col-sm-12">
-                        <Button variant="contained" size="small" color="primary" onClick={this.UpdateToDoTask}>
-                            Save
-                        </Button> &nbsp;
-                        <Button variant='contained' size="small" onClick={this.CancelToDoTask}>
-                            Cancel
-                        </Button >&nbsp;
-                        <Button variant="contained" color="secondary" size="small" onClick={this.DeleteToDoTask} >
-                            Delete
-                        </Button>
-                    </div>
-                </div>
+            <div>
+                <Header />
+                <Grid container justify="center" alignItems="center">
+                    <Grid item xs={4}>
+                        <Paper>
+                            <div align="center">
+                                <Link to={"/"}> {'<'} Back to ToDo Task</Link>
+                                <div className="row">
+                                    <div className="col-lg-12 col-md-12 col-sm-12">
+                                        <TextField
+                                            required
+                                            id="title"
+                                            label="To Do Task"
+                                            value={this.state.title}
+                                            onChange={this.handleTitleChange('title')}
+                                            margin="normal"
+                                            error={this.state.checkErrorname === "0"}
+                                            helperText={this.state.checkErrorname === "0" ? 'Title should not be empty!' : ' '}
+                                        />
+                                        <If test={!this.state.completed}>
+                                            <Tooltip title="Complete">
+                                                <IconButton aria-label="Complete" onClick={this.CompleteToDoTask}>
+                                                    <DoneRoundedIcon style={{ color: 'green' }} />
+                                                </IconButton>
+                                            </Tooltip>
+                                        </If>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-lg-12 col-md-12 col-sm-12">
+                                        <TextField
+                                            id="description"
+                                            label="Description"
+                                            multiline
+                                            rows="3"
+                                            defaultValue=""
+                                            margin="normal"
+                                            value={this.state.description}
+                                            onChange={this.handleDescriptionChange('description')}
+                                        />
+
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-lg-12 col-md-12 col-sm-12">
+                                        <Button variant="contained" size="small" color="primary" onClick={this.UpdateToDoTask}>
+                                            Save </Button> &nbsp;
+                                        <Button variant='contained' size="small" onClick={this.CancelToDoTask}>
+                                            Cancel </Button >&nbsp;
+                                        <Button variant="contained" color="secondary" size="small" onClick={this.DeleteToDoTask} >
+                                              Delete </Button>
+                                    </div>
+                                </div>
+                            </div>
+                        </Paper>
+                    </Grid>
+                </Grid>
             </div>
         );
     }

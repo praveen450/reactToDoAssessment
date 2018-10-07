@@ -10,7 +10,8 @@ import ListItemText from '@material-ui/core/ListItemText';
 import StarIcon from '@material-ui/icons/Star';
 import NewToDoTaskPage from './NewToDoTaskPage';
 import * as ToDoTaskActions from '../actions/toDoTaskActions';
-import ToDoTaskList from './ToDoTaskList'
+import ToDoTaskList from './ToDoTaskList';
+import Header from './common/Header';
 
 class TasksPage extends Component {
     constructor(props, context) {
@@ -21,6 +22,7 @@ class TasksPage extends Component {
 
         return (
             <div className="App">
+                <Header/>
                 <NewToDoTaskPage />
                 <div>
                     < ToDoTaskList />
