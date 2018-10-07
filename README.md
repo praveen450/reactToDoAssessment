@@ -1,24 +1,17 @@
-<<<<<<< HEAD
-# todoapp
-ToDO app is created based on the requirement from https://github.com/jwo/react-assessment </br>
+# To Do Application:
+To-Do Task application is developed with the requirement from https://github.com/jwo/react-assessment </br>
 </br>
-<b>Assesment_1</b> </br>
-1.Folder Assesment_1 contains Assesment 1 from  https://github.com/jwo/react-assessment .This has basic React, material-ui and in memory 
-data. Open the code inside Assessment_1 folder using visual studio code. </br>
-2.Run npm install to install all the node-modules files </br>
-3. Run npm start to run the project. This will open To-Do app using basic React and in memory data.
 
-</br></br>
-<b>Assesment_2and3</b> </br>
-1.Folder Assesment_2and3  contains Assesment 2 and Assessment 3 from  https://github.com/jwo/react-assessment .This has React,Redux and 
-in from web service https://practiceapi.devmountain.com/api/ . Open the code inside Assessment_2and3  using visual studio code. </br>
-2.Run npm install to install all the  node-modules files </br>
-3. Run npm start to run the project. This will open To-Do app using React,Redux and data from web service location https://practiceapi.devmountain.com/api/. 
+1.This reactToDoAssessment repo has "To-Do Application" from  https://github.com/jwo/react-assessment .
+This is the React, Redux Application with web services https://practiceapi.devmountain.com/api/. Open this code with visual studio code. </br>
+2. Install all Dependencies with "npm istall". </br>
+3.  And do "npm start" to open this To-Do Application.
 </br>
-</br> <b> Screen 1 </b> </br>
-<img width="940" alt="4" src="https://user-images.githubusercontent.com/42551395/44413939-cf012100-a529-11e8-9510-f8f444f680e0.png"> 
-</br> <b> Screen 2 </b> </br>
-<img width="659" alt="5" src="https://user-images.githubusercontent.com/42551395/44413942-d0324e00-a529-11e8-8b9f-5ef8294ad15d.png">
-=======
+</br> <b> Add and View  Task: </b> </br>
+![todotasks](https://user-images.githubusercontent.com/43896941/46565760-eda05900-c8d8-11e8-8a6e-9e160e20c491.PNG)
 
->>>>>>> 5d5cbfe681aa6bf26dc124b85ce96305d7b124a4
+</br> <b> Edit "Not Completed" To- Do Task: </b> </br>
+![edit todotask - complete](https://user-images.githubusercontent.com/43896941/46565804-69020a80-c8d9-11e8-9396-390a1fd9714f.PNG)
+
+</br> <b> Edit "Completed" To- Do Task: </b> </br>
+![completed edit todo task](https://user-images.githubusercontent.com/43896941/46565836-c5652a00-c8d9-11e8-892e-05abeaf642b5.PNG)
